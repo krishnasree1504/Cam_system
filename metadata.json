@@ -1,0 +1,6 @@
+{
+  "name": "CAM System",
+  "description": "Enterprise Admin Dashboard for Consumer Attention Mapping System - Stores, Shelves, Cameras, Users and JWT Auth Management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

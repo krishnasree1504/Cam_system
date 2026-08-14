@@ -1,0 +1,293 @@
+{
+  "totalPeople": 28,
+  "uniquePeople": 24,
+  "maxCrowd": 8,
+  "minCrowd": 1,
+  "avgCrowd": 4.2,
+  "crowdPercentage": 42,
+  "crowdLevel": "Moderate",
+  "entries": 16,
+  "exits": 12,
+  "totalFootfall": 28,
+  "maxOccupancy": 8,
+  "currentOccupancy": 3,
+  "avgOccupancy": 4.2,
+  "videoLength": "02:15",
+  "fps": 30,
+  "totalFrames": 4050,
+  "framesProcessed": 4050,
+  "resolution": "1920x1080",
+  "totalObjects": 24,
+  "peopleCount": 24,
+  "avgConfidence": "89.4%",
+  "minConfidence": "72.0%",
+  "maxConfidence": "98.5%",
+  "processingTime": 12.4,
+  "shelfMetrics": {
+    "shelf_1": {
+      "uniqueVisitorsCount": 14,
+      "visits": 18,
+      "totalDwellSeconds": 245.5,
+      "averageDwellSeconds": 13.6,
+      "maxDwellSeconds": 32,
+      "peakOccupancy": 4
+    },
+    "shelf_2": {
+      "uniqueVisitorsCount": 22,
+      "visits": 28,
+      "totalDwellSeconds": 412,
+      "averageDwellSeconds": 14.7,
+      "maxDwellSeconds": 45,
+      "peakOccupancy": 6
+    },
+    "shelf_3": {
+      "uniqueVisitorsCount": 9,
+      "visits": 11,
+      "totalDwellSeconds": 118,
+      "averageDwellSeconds": 10.7,
+      "maxDwellSeconds": 22,
+      "peakOccupancy": 2
+    },
+    "shelf_4": {
+      "uniqueVisitorsCount": 17,
+      "visits": 21,
+      "totalDwellSeconds": 289,
+      "averageDwellSeconds": 13.8,
+      "maxDwellSeconds": 38,
+      "peakOccupancy": 5
+    }
+  },
+  "attentionScores": {
+    "shelf_1": 72.4,
+    "shelf_2": 95.8,
+    "shelf_3": 41.2,
+    "shelf_4": 81.5
+  },
+  "mostAttendedShelf": "shelf_2",
+  "productDensity": {
+    "shelf_1": 12,
+    "shelf_2": 24,
+    "shelf_3": 8,
+    "shelf_4": 16
+  },
+  "productEngagement": [
+    {
+      "productId": "SKU_1",
+      "productName": "Eye-Level Premium Snack Region",
+      "shelfId": "shelf_2",
+      "uniqueCustomers": 18,
+      "interactions": 24,
+      "totalEngagementTime": 185.2,
+      "averageEngagementTime": 7.7,
+      "engagementScore": 92.4,
+      "detectedItemsCount": 12
+    },
+    {
+      "productId": "SKU_2",
+      "productName": "Feature Grab-and-Go Display",
+      "shelfId": "shelf_4",
+      "uniqueCustomers": 14,
+      "interactions": 19,
+      "totalEngagementTime": 142,
+      "averageEngagementTime": 7.5,
+      "engagementScore": 84.1,
+      "detectedItemsCount": 8
+    },
+    {
+      "productId": "SKU_3",
+      "productName": "Top Shelf Specialty Row",
+      "shelfId": "shelf_1",
+      "uniqueCustomers": 11,
+      "interactions": 14,
+      "totalEngagementTime": 112.5,
+      "averageEngagementTime": 8,
+      "engagementScore": 71.8,
+      "detectedItemsCount": 6
+    },
+    {
+      "productId": "SKU_4",
+      "productName": "Bottom Bulk Essentials Region",
+      "shelfId": "shelf_3",
+      "uniqueCustomers": 7,
+      "interactions": 9,
+      "totalEngagementTime": 68,
+      "averageEngagementTime": 7.5,
+      "engagementScore": 48.2,
+      "detectedItemsCount": 5
+    }
+  ],
+  "customerJourney": {
+    "mostCommonPath": "Eye Level Shelf \u2192 Feature Display \u2192 Top Shelf",
+    "averageShelvesVisited": 2.8,
+    "averageJourneyDurationSec": 42.5,
+    "totalVisits": 78
+  },
+  "insights": [
+    "\ud83c\udfc6 Eye-Level Shelf achieved the highest Customer Attention Score of 95.8% across all store zones.",
+    "\u23f1 Shoppers spent an average dwell time of 14.7 seconds at Eye-Level Shelf (Total Dwell: 412.0s).",
+    "\ud83d\udcc8 Eye-Level Shelf captured 22 unique customer visits with a peak simultaneous occupancy of 6 people.",
+    "\u26a0\ufe0f Bottom Shelf recorded the lowest attention score (41.2%), indicating potential visibility or layout friction."
+  ],
+  "optimizations": [
+    {
+      "observation": "Eye-Level Shelf exhibits maximum customer attraction and dwell engagement.",
+      "supportingMetric": "22 unique visitors, 14.7s avg dwell",
+      "recommendation": "Prioritize placement of premium high-margin SKUs and seasonal promotional displays on Eye-Level Shelf to capitalize on peak customer attention.",
+      "confidence": "High"
+    },
+    {
+      "observation": "Bottom Shelf exhibits low customer dwell and engagement relative to surrounding zones.",
+      "supportingMetric": "Attention Score: 41.2%, Avg Dwell: 10.7s",
+      "recommendation": "Re-evaluate signage, product categorization, and lighting on Bottom Shelf or introduce directional prompts from higher-traffic zones.",
+      "confidence": "Medium"
+    }
+  ],
+  "dataQuality": {
+    "confidence": "High",
+    "customersDetected": 24,
+    "validTracks": 24,
+    "productDetections": 60,
+    "notes": "High confidence analysis. Tracked 24 unique shoppers with 89.4% average detection stability."
+  },
+  "crowdOverTime": [
+    {
+      "time": "00:15",
+      "crowd": 2,
+      "occupancy": 2
+    },
+    {
+      "time": "00:30",
+      "crowd": 4,
+      "occupancy": 4
+    },
+    {
+      "time": "00:45",
+      "crowd": 7,
+      "occupancy": 7
+    },
+    {
+      "time": "01:00",
+      "crowd": 8,
+      "occupancy": 8
+    },
+    {
+      "time": "01:15",
+      "crowd": 5,
+      "occupancy": 5
+    },
+    {
+      "time": "01:30",
+      "crowd": 3,
+      "occupancy": 3
+    },
+    {
+      "time": "01:45",
+      "crowd": 4,
+      "occupancy": 4
+    },
+    {
+      "time": "02:00",
+      "crowd": 2,
+      "occupancy": 2
+    }
+  ],
+  "occupancyTrend": [
+    {
+      "timestamp": "00:15",
+      "occupancy": 2
+    },
+    {
+      "timestamp": "00:30",
+      "occupancy": 4
+    },
+    {
+      "timestamp": "00:45",
+      "occupancy": 7
+    },
+    {
+      "timestamp": "01:00",
+      "occupancy": 8
+    },
+    {
+      "timestamp": "01:15",
+      "occupancy": 5
+    },
+    {
+      "timestamp": "01:30",
+      "occupancy": 3
+    },
+    {
+      "timestamp": "01:45",
+      "occupancy": 4
+    },
+    {
+      "timestamp": "02:00",
+      "occupancy": 2
+    }
+  ],
+  "crowdHeatTimeline": [
+    {
+      "time_sec": 15,
+      "count": 2,
+      "boxes": []
+    },
+    {
+      "time_sec": 30,
+      "count": 4,
+      "boxes": []
+    },
+    {
+      "time_sec": 45,
+      "count": 7,
+      "boxes": []
+    },
+    {
+      "time_sec": 60,
+      "count": 8,
+      "boxes": []
+    },
+    {
+      "time_sec": 75,
+      "count": 5,
+      "boxes": []
+    },
+    {
+      "time_sec": 90,
+      "count": 3,
+      "boxes": []
+    }
+  ],
+  "previewFrames": [],
+  "heatmapData": [
+    {
+      "x": 320,
+      "y": 240,
+      "intensity": 1,
+      "shelfId": "shelf_2"
+    },
+    {
+      "x": 450,
+      "y": 280,
+      "intensity": 0.9,
+      "shelfId": "shelf_2"
+    },
+    {
+      "x": 680,
+      "y": 520,
+      "intensity": 0.8,
+      "shelfId": "shelf_4"
+    },
+    {
+      "x": 210,
+      "y": 180,
+      "intensity": 0.7,
+      "shelfId": "shelf_1"
+    }
+  ],
+  "aiSummary": "Retail video analytics completed. Tracked 24 unique customers across 4,050 frames with ByteTrack tracking. Peak simultaneous occupancy reached 8 customers (Avg: 4.2). Registered 16 entries and 12 exits with an average detection confidence of 89.4%.",
+  "aiRecommendations": [
+    "Tracked 24 unique shoppers. Analysis confidence level: High.",
+    "Current crowd density level is Moderate (42.0%).",
+    "Recorded 16 entrance line crossings and 12 exit crossings."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "zones": [
+    {
+      "id": "shelf_1",
+      "name": "Shelf 1",
+      "category": "Beverages & Cold Drinks",
+      "points": [
+        { "x": 0, "y": 0 },
+        { "x": 960, "y": 0 },
+        { "x": 960, "y": 540 },
+        { "x": 0, "y": 540 }
+      ]
+    },
+    {
+      "id": "shelf_2",
+      "name": "Shelf 2",
+      "category": "Snacks & Confectionery",
+      "points": [
+        { "x": 960, "y": 0 },
+        { "x": 1920, "y": 0 },
+        { "x": 1920, "y": 540 },
+        { "x": 960, "y": 540 }
+      ]
+    },
+    {
+      "id": "shelf_3",
+      "name": "Shelf 3",
+      "category": "Dairy & Grocery Essentials",
+      "points": [
+        { "x": 0, "y": 540 },
+        { "x": 960, "y": 540 },
+        { "x": 960, "y": 1080 },
+        { "x": 0, "y": 1080 }
+      ]
+    },
+    {
+      "id": "shelf_4",
+      "name": "Shelf 4",
+      "category": "Personal Care & Home",
+      "points": [
+        { "x": 960, "y": 540 },
+        { "x": 1920, "y": 540 },
+        { "x": 1920, "y": 1080 },
+        { "x": 960, "y": 1080 }
+      ]
+    }
+  ]
+}

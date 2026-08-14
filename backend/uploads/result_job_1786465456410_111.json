@@ -1,0 +1,70 @@
+{
+  "detectionDistribution": [
+    {
+      "name": "People",
+      "value": 1,
+      "color": "#00E676"
+    }
+  ],
+  "crowdHeatTimeline": [],
+  "totalPeople": 0,
+  "uniquePeople": 1,
+  "maxCrowd": 0,
+  "minCrowd": 0,
+  "avgCrowd": 0.0,
+  "crowdPercentage": 0.0,
+  "crowdLevel": "Very Low",
+  "entries": 0,
+  "exits": 0,
+  "totalFootfall": 0,
+  "maxOccupancy": 0,
+  "currentOccupancy": 0,
+  "avgOccupancy": 0.0,
+  "videoLength": "0m 21s",
+  "fps": 25.0,
+  "totalFrames": 531,
+  "framesProcessed": 1,
+  "resolution": "768x432",
+  "totalObjects": 1,
+  "peopleCount": 1,
+  "shoppingCartsCount": 0,
+  "otherObjectsCount": 0,
+  "avgConfidence": "91.3%",
+  "minConfidence": "91.3%",
+  "maxConfidence": "91.3%",
+  "averageConfidence": "91.3%",
+  "detectionAccuracy": null,
+  "processingTime": 8.55,
+  "smoothedOccupancy": 0,
+  "smoothedCrowdPercentage": 0,
+  "crowdOverTime": [],
+  "occupancyTrend": [],
+  "previewFrames": [],
+  "aiSummary": "Retail video analytics completed (0m 21s). Tracked 1 unique individuals across store zones. Peak simultaneous occupancy reached 0 (Avg occupancy: 0.0). Crowd density evaluated at 0.0% (Very Low Status) relative to store capacity (50). Registered 0 entries and 0 exits with an average detection confidence of 91.3%.",
+  "aiRecommendations": [
+    "Unique shoppers tracked: 1. Ensure shelf layout maximizes engagement for peak traffic zones.",
+    "Current crowd density level is Very Low (0.0%). Align staff allocation with peak occupancy windows.",
+    "Recorded 0 entrance line crossings and 0 exit crossings.",
+    "ByteTrack persistent tracking maintained across 1 frames with 91.3% average confidence."
+  ],
+  "totalProductsDetected": 0,
+  "productsPerCategory": {},
+  "mostFrequentProduct": null,
+  "averageProductConfidence": "0%",
+  "minDensity": 0,
+  "averageOccupancy": 0.0,
+  "shelfMetrics": {},
+  "attentionScores": {},
+  "mostAttendedShelf": null,
+  "insights": [],
+  "optimizations": [
+    "Review shelf layouts based on dwell time and visitor counts."
+  ],
+  "productDensity": {},
+  "customerJourney": {
+    "mostCommonPath": "(no shelf)",
+    "averageShelvesVisited": 0.0,
+    "averageJourneyDurationSec": 0.0,
+    "totalVisits": 0
+  }
+}

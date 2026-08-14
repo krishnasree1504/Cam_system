@@ -1,0 +1,245 @@
+{
+  "totalPeople": 48,
+  "uniquePeople": 18,
+  "maxCrowd": 12,
+  "minCrowd": 2,
+  "avgCrowd": 6.4,
+  "crowdPercentage": 48,
+  "crowdLevel": "Medium",
+  "densityPercentage": 48,
+  "densityLevel": "Medium",
+  "entries": 14,
+  "exits": 11,
+  "totalFootfall": 25,
+  "maxOccupancy": 15,
+  "currentOccupancy": 9,
+  "avgOccupancy": 8.2,
+  "videoLength": "00:02:30",
+  "fps": 30,
+  "totalFrames": 4500,
+  "framesProcessed": 4500,
+  "resolution": "1920x1080",
+  "totalObjects": 124,
+  "peopleCount": 18,
+  "shoppingCartsCount": 7,
+  "otherObjectsCount": 12,
+  "avgConfidence": "94.2%",
+  "minConfidence": "82.5%",
+  "maxConfidence": "98.7%",
+  "processingTime": 8.4,
+  "detectionAccuracy": "95.1%",
+  "crowdOverTime": [
+    {
+      "time": "00:00",
+      "peopleCount": 3,
+      "occupancy": 3,
+      "crowdPercentage": 20
+    },
+    {
+      "time": "00:30",
+      "peopleCount": 7,
+      "occupancy": 7,
+      "crowdPercentage": 35
+    },
+    {
+      "time": "01:00",
+      "peopleCount": 12,
+      "occupancy": 12,
+      "crowdPercentage": 60
+    },
+    {
+      "time": "01:30",
+      "peopleCount": 9,
+      "occupancy": 9,
+      "crowdPercentage": 45
+    },
+    {
+      "time": "02:00",
+      "peopleCount": 6,
+      "occupancy": 6,
+      "crowdPercentage": 30
+    },
+    {
+      "time": "02:30",
+      "peopleCount": 4,
+      "occupancy": 4,
+      "crowdPercentage": 20
+    }
+  ],
+  "occupancyTrend": [
+    {
+      "time": "00:00",
+      "occupancy": 3,
+      "maxCapacity": 25
+    },
+    {
+      "time": "00:30",
+      "occupancy": 7,
+      "maxCapacity": 25
+    },
+    {
+      "time": "01:00",
+      "occupancy": 12,
+      "maxCapacity": 25
+    },
+    {
+      "time": "01:30",
+      "occupancy": 9,
+      "maxCapacity": 25
+    },
+    {
+      "time": "02:00",
+      "occupancy": 6,
+      "maxCapacity": 25
+    },
+    {
+      "time": "02:30",
+      "occupancy": 4,
+      "maxCapacity": 25
+    }
+  ],
+  "detectionDistribution": [
+    {
+      "name": "Shoppers / People",
+      "value": 65,
+      "color": "#00E676"
+    },
+    {
+      "name": "Shopping Carts",
+      "value": 20,
+      "color": "#0284C7"
+    },
+    {
+      "name": "Bags & Baskets",
+      "value": 15,
+      "color": "#F59E0B"
+    }
+  ],
+  "crowdHeatTimeline": [
+    {
+      "time": "00:00",
+      "crowdPercentage": 20,
+      "status": "Normal"
+    },
+    {
+      "time": "01:00",
+      "crowdPercentage": 60,
+      "status": "Moderate"
+    },
+    {
+      "time": "02:00",
+      "crowdPercentage": 30,
+      "status": "Normal"
+    }
+  ],
+  "previewFrames": [
+    {
+      "frameNumber": 150,
+      "timestamp": "00:05",
+      "detectedCount": 4,
+      "boxes": [
+        {
+          "id": "Person #101",
+          "label": "Person",
+          "confidence": "96.4%",
+          "bbox": [
+            100,
+            120,
+            200,
+            400
+          ]
+        },
+        {
+          "id": "Person #102",
+          "label": "Person",
+          "confidence": "93.1%",
+          "bbox": [
+            250,
+            140,
+            350,
+            420
+          ]
+        },
+        {
+          "id": "Cart #201",
+          "label": "Cart",
+          "confidence": "89.5%",
+          "bbox": [
+            120,
+            300,
+            220,
+            450
+          ]
+        },
+        {
+          "id": "Person #103",
+          "label": "Person",
+          "confidence": "91.8%",
+          "bbox": [
+            450,
+            110,
+            540,
+            390
+          ]
+        }
+      ]
+    },
+    {
+      "frameNumber": 900,
+      "timestamp": "00:30",
+      "detectedCount": 7,
+      "boxes": [
+        {
+          "id": "Person #104",
+          "label": "Person",
+          "confidence": "97.2%",
+          "bbox": [
+            110,
+            130,
+            210,
+            410
+          ]
+        },
+        {
+          "id": "Person #105",
+          "label": "Person",
+          "confidence": "95.0%",
+          "bbox": [
+            280,
+            150,
+            380,
+            430
+          ]
+        },
+        {
+          "id": "Person #106",
+          "label": "Person",
+          "confidence": "92.6%",
+          "bbox": [
+            400,
+            120,
+            500,
+            400
+          ]
+        },
+        {
+          "id": "Cart #202",
+          "label": "Cart",
+          "confidence": "91.0%",
+          "bbox": [
+            300,
+            320,
+            400,
+            470
+          ]
+        }
+      ]
+    }
+  ],
+  "aiSummary": "Processed video with automated analytics. Identified 18 unique shoppers, peak occupancy of 12 people, and 25 total footfall entries/exits.",
+  "aiRecommendations": [
+    "Increase floor staff near High-Attention Aisles during peak occupancy hours.",
+    "Optimize shelf product placement based on high dwell time areas.",
+    "Maintain clear camera field of view for high-confidence multi-target tracking."
+  ]
+}

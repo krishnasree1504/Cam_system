@@ -1,0 +1,23 @@
+{
+  "totalPeople": 48,
+  "uniquePeople": 28,
+  "maxCrowd": 16,
+  "avgCrowd": 0.4,
+  "crowdPercentage": 100.0,
+  "crowdLevel": "Critical",
+  "avgConfidence": "89.4%",
+  "framesProcessed": 120,
+  "videoDuration": "0m 4s",
+  "processingTime": 1.27,
+  "detectionSummary": {
+    "person": 48,
+    "shoppingCart": 9,
+    "otherObjects": 24
+  },
+  "aiRecommendations": [
+    "Optimize shelf display placement near high-traffic bottleneck zones to increase dwell engagement.",
+    "Crowd level is currently Critical (100.0%). Ensure staff allocation aligns with peak traffic.",
+    "Consider rebalancing aisle width near high dwell areas to smooth customer movement during busy windows.",
+    "Maintain optimal camera angle (1080p, 30FPS) for maximum YOLOv8 detection accuracy."
+  ]
+}

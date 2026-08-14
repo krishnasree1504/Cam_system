@@ -1,0 +1,459 @@
+{
+  "success": true,
+  "totalPeople": 0,
+  "uniquePeople": 0,
+  "maxCrowd": 1,
+  "minCrowd": 0,
+  "avgCrowd": 0.1,
+  "crowdPercentage": 2.0,
+  "crowdLevel": "Very Low",
+  "entries": 0,
+  "exits": 0,
+  "totalFootfall": 0,
+  "maxOccupancy": 1,
+  "currentOccupancy": 0,
+  "avgOccupancy": 0.1,
+  "videoLength": "00:06",
+  "fps": 24.0,
+  "totalFrames": 145,
+  "framesProcessed": 145,
+  "resolution": "898x506",
+  "totalObjects": 0,
+  "peopleCount": 0,
+  "avgConfidence": "42.5%",
+  "minConfidence": "32.1%",
+  "maxConfidence": "55.9%",
+  "processingTime": 34.18,
+  "crowdOverTime": [
+    {
+      "time": "00:00",
+      "peopleCount": 1,
+      "occupancy": 1,
+      "crowdPercentage": 2.0
+    },
+    {
+      "time": "00:00",
+      "peopleCount": 1,
+      "occupancy": 1,
+      "crowdPercentage": 2.0
+    },
+    {
+      "time": "00:01",
+      "peopleCount": 0,
+      "occupancy": 0,
+      "crowdPercentage": 0.0
+    },
+    {
+      "time": "00:01",
+      "peopleCount": 0,
+      "occupancy": 0,
+      "crowdPercentage": 0.0
+    },
+    {
+      "time": "00:02",
+      "peopleCount": 0,
+      "occupancy": 0,
+      "crowdPercentage": 0.0
+    },
+    {
+      "time": "00:02",
+      "peopleCount": 0,
+      "occupancy": 0,
+      "crowdPercentage": 0.0
+    },
+    {
+      "time": "00:03",
+      "peopleCount": 0,
+      "occupancy": 0,
+      "crowdPercentage": 0.0
+    },
+    {
+      "time": "00:03",
+      "peopleCount": 0,
+      "occupancy": 0,
+      "crowdPercentage": 0.0
+    },
+    {
+      "time": "00:04",
+      "peopleCount": 0,
+      "occupancy": 0,
+      "crowdPercentage": 0.0
+    },
+    {
+      "time": "00:04",
+      "peopleCount": 0,
+      "occupancy": 0,
+      "crowdPercentage": 0.0
+    },
+    {
+      "time": "00:05",
+      "peopleCount": 0,
+      "occupancy": 0,
+      "crowdPercentage": 0.0
+    },
+    {
+      "time": "00:05",
+      "peopleCount": 0,
+      "occupancy": 0,
+      "crowdPercentage": 0.0
+    }
+  ],
+  "occupancyTrend": [
+    {
+      "time": "00:00",
+      "occupancy": 1,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:00",
+      "occupancy": 1,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:01",
+      "occupancy": 0,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:01",
+      "occupancy": 0,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:02",
+      "occupancy": 0,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:02",
+      "occupancy": 0,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:03",
+      "occupancy": 0,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:03",
+      "occupancy": 0,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:04",
+      "occupancy": 0,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:04",
+      "occupancy": 0,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:05",
+      "occupancy": 0,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:05",
+      "occupancy": 0,
+      "maxCapacity": 50
+    }
+  ],
+  "crowdHeatTimeline": [
+    {
+      "time": "00:00",
+      "crowdPercentage": 2.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:00",
+      "crowdPercentage": 2.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:01",
+      "crowdPercentage": 0.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:01",
+      "crowdPercentage": 0.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:02",
+      "crowdPercentage": 0.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:02",
+      "crowdPercentage": 0.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:03",
+      "crowdPercentage": 0.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:03",
+      "crowdPercentage": 0.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:04",
+      "crowdPercentage": 0.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:04",
+      "crowdPercentage": 0.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:05",
+      "crowdPercentage": 0.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:05",
+      "crowdPercentage": 0.0,
+      "status": "Low"
+    }
+  ],
+  "previewFrames": [
+    {
+      "frameNumber": 0,
+      "timestamp": "00:00",
+      "detectedCount": 1,
+      "boxes": [
+        {
+          "id": "Customer #1",
+          "label": "Person",
+          "confidence": "38.6%",
+          "bbox": [
+            536,
+            0,
+            361,
+            501
+          ]
+        }
+      ]
+    },
+    {
+      "frameNumber": 36,
+      "timestamp": "00:01",
+      "detectedCount": 0,
+      "boxes": []
+    },
+    {
+      "frameNumber": 72,
+      "timestamp": "00:03",
+      "detectedCount": 0,
+      "boxes": []
+    },
+    {
+      "frameNumber": 108,
+      "timestamp": "00:04",
+      "detectedCount": 0,
+      "boxes": []
+    },
+    {
+      "frameNumber": 144,
+      "timestamp": "00:06",
+      "detectedCount": 0,
+      "boxes": []
+    }
+  ],
+  "aiSummary": "Retail video analysis completed for store video footage (00:06). 0 customers were detected in the video stream. Please verify camera angle, lighting, and detection confidence settings.",
+  "aiRecommendations": [
+    "Tracked 0 unique shoppers. Analysis confidence level: Low.",
+    "Current crowd density level is Very Low (2.0%).",
+    "Recorded 0 entrance line crossings and 0 exit crossings."
+  ],
+  "shelfMetrics": {
+    "shelf_1": {
+      "visits": 0,
+      "totalDwellFrames": 0,
+      "maxDwellFrames": 0,
+      "peakOccupancy": 0,
+      "uniqueVisitorsCount": 0,
+      "totalDwellSeconds": 0.0,
+      "averageDwellSeconds": 0.0,
+      "maxDwellSeconds": 0.0
+    },
+    "shelf_2": {
+      "visits": 0,
+      "totalDwellFrames": 0,
+      "maxDwellFrames": 0,
+      "peakOccupancy": 0,
+      "uniqueVisitorsCount": 0,
+      "totalDwellSeconds": 0.0,
+      "averageDwellSeconds": 0.0,
+      "maxDwellSeconds": 0.0
+    },
+    "shelf_3": {
+      "visits": 0,
+      "totalDwellFrames": 0,
+      "maxDwellFrames": 0,
+      "peakOccupancy": 0,
+      "uniqueVisitorsCount": 0,
+      "totalDwellSeconds": 0.0,
+      "averageDwellSeconds": 0.0,
+      "maxDwellSeconds": 0.0
+    },
+    "shelf_4": {
+      "visits": 0,
+      "totalDwellFrames": 0,
+      "maxDwellFrames": 0,
+      "peakOccupancy": 0,
+      "uniqueVisitorsCount": 0,
+      "totalDwellSeconds": 0.0,
+      "averageDwellSeconds": 0.0,
+      "maxDwellSeconds": 0.0
+    }
+  },
+  "attentionScores": {
+    "shelf_1": 0.0,
+    "shelf_2": 0.0,
+    "shelf_3": 0.0,
+    "shelf_4": 0.0
+  },
+  "mostAttendedShelf": null,
+  "productDensity": {
+    "shelf_1": 3098,
+    "shelf_2": 0,
+    "shelf_3": 0,
+    "shelf_4": 0
+  },
+  "productEngagement": [
+    {
+      "productId": "object",
+      "productName": "SKU Item (object)",
+      "shelfId": "shelf_1",
+      "uniqueCustomers": 0,
+      "interactions": 0,
+      "totalEngagementTime": 0.0,
+      "averageEngagementTime": 0.0,
+      "engagementScore": 0.0,
+      "detectedItemsCount": 3098
+    }
+  ],
+  "customerJourney": {
+    "mostCommonPath": "Insufficient customer movement data for reliable journey analysis.",
+    "averageShelvesVisited": 0.0,
+    "averageJourneyDurationSec": 0.0,
+    "totalVisits": 0
+  },
+  "insights": [
+    "No customer attention insights available because no customer shelf visits were detected in the video."
+  ],
+  "optimizations": [
+    {
+      "observation": "No customer presence detected across shelf zones.",
+      "supportingMetric": "0 visits recorded",
+      "recommendation": "Verify camera positioning and lighting for optimal video analytics coverage.",
+      "confidence": "Low"
+    }
+  ],
+  "dataQuality": {
+    "confidence": "Low",
+    "customersDetected": 0,
+    "validTracks": 0,
+    "productDetections": 3098,
+    "notes": "No customers reliably detected in the video stream. Analytics confidence is limited."
+  },
+  "heatmapData": [],
+  "diagnostics": {
+    "video": {
+      "path": "C:\\Users\\91918\\Downloads\\cam_system\\backend\\uploads\\video_1786648798401_385577178.mp4",
+      "exists": true,
+      "opened": true,
+      "width": 898,
+      "height": 506,
+      "fps": 24.0,
+      "totalFrames": 145
+    },
+    "personModel": {
+      "path": "C:\\Users\\91918\\Downloads\\cam_system\\backend\\python\\models\\yolov8n.pt",
+      "exists": true,
+      "loaded": true
+    },
+    "productModel": {
+      "path": "C:\\Users\\91918\\Downloads\\cam_system\\backend\\python\\models\\best.pt",
+      "exists": true,
+      "loaded": true,
+      "detectionsCount": 3098
+    },
+    "tracking": {
+      "rawDetectionsTotal": 18,
+      "uniqueTrackedCustomers": 2,
+      "validTracksCount": 0,
+      "averageTrackDurationSec": 0.0
+    },
+    "shelf": {
+      "configuredZonesCount": 4,
+      "shelfVisitsCount": 0,
+      "totalDwellSeconds": 0.0
+    },
+    "annotatedFrames": [
+      {
+        "frameIdx": 0,
+        "timeSec": 0.0,
+        "filename": "annotated_job_1786648798511_87_frame_0.jpg",
+        "url": "/uploads/annotated_job_1786648798511_87_frame_0.jpg"
+      },
+      {
+        "frameIdx": 1,
+        "timeSec": 0.0,
+        "filename": "annotated_job_1786648798511_87_frame_1.jpg",
+        "url": "/uploads/annotated_job_1786648798511_87_frame_1.jpg"
+      },
+      {
+        "frameIdx": 29,
+        "timeSec": 1.2,
+        "filename": "annotated_job_1786648798511_87_frame_29.jpg",
+        "url": "/uploads/annotated_job_1786648798511_87_frame_29.jpg"
+      },
+      {
+        "frameIdx": 57,
+        "timeSec": 2.4,
+        "filename": "annotated_job_1786648798511_87_frame_57.jpg",
+        "url": "/uploads/annotated_job_1786648798511_87_frame_57.jpg"
+      },
+      {
+        "frameIdx": 86,
+        "timeSec": 3.6,
+        "filename": "annotated_job_1786648798511_87_frame_86.jpg",
+        "url": "/uploads/annotated_job_1786648798511_87_frame_86.jpg"
+      },
+      {
+        "frameIdx": 100,
+        "timeSec": 4.2,
+        "filename": "annotated_job_1786648798511_87_frame_100.jpg",
+        "url": "/uploads/annotated_job_1786648798511_87_frame_100.jpg"
+      },
+      {
+        "frameIdx": 114,
+        "timeSec": 4.8,
+        "filename": "annotated_job_1786648798511_87_frame_114.jpg",
+        "url": "/uploads/annotated_job_1786648798511_87_frame_114.jpg"
+      },
+      {
+        "frameIdx": 143,
+        "timeSec": 6.0,
+        "filename": "annotated_job_1786648798511_87_frame_143.jpg",
+        "url": "/uploads/annotated_job_1786648798511_87_frame_143.jpg"
+      }
+    ],
+    "quality": {
+      "confidence": "Low",
+      "customersDetected": 0,
+      "validTracks": 0,
+      "productDetections": 3098,
+      "notes": "No customers reliably detected in the video stream. Analytics confidence is limited."
+    },
+    "diagnosticSummaryText": "======================================================================\nCAMS CRITICAL DIAGNOSTIC SUMMARY\n======================================================================\n1. Video File: C:\\Users\\91918\\Downloads\\cam_system\\backend\\uploads\\video_1786648798401_385577178.mp4 (898x506 @ 24.0 FPS, 145 frames)\n2. Person Model (yolov8n.pt): LOADED\n3. Person Tracking (ByteTrack): 18 raw detections -> 2 unique tracks (0 valid >= 1.0s)\n4. Product Model (best.pt): LOADED (3098 product detections)\n5. Shelf Zones: 4 zones configured\n6. Customer-Shelf Associations: 0 valid shelf visits recorded\n7. Total Dwell Time: 0.0s across all shelves\n8. Product Associations: 1 product classes with engagement\n9. Data Quality Rating: Low (No customers reliably detected in the video stream. Analytics confidence is limited.)\n======================================================================"
+  }
+}

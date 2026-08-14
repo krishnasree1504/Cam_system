@@ -1,0 +1,443 @@
+{
+  "detectionDistribution": [
+    {
+      "name": "People",
+      "value": 3,
+      "color": "#00E676"
+    }
+  ],
+  "crowdHeatTimeline": [
+    {
+      "time": "00:00",
+      "crowdPercentage": 2.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:01",
+      "crowdPercentage": 4.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:03",
+      "crowdPercentage": 4.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:05",
+      "crowdPercentage": 4.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:07",
+      "crowdPercentage": 4.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:08",
+      "crowdPercentage": 4.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:10",
+      "crowdPercentage": 4.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:12",
+      "crowdPercentage": 4.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:14",
+      "crowdPercentage": 4.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:15",
+      "crowdPercentage": 2.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:17",
+      "crowdPercentage": 4.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:19",
+      "crowdPercentage": 2.0,
+      "status": "Low"
+    }
+  ],
+  "totalPeople": 2,
+  "uniquePeople": 3,
+  "maxCrowd": 2,
+  "minCrowd": 1,
+  "avgCrowd": 1.7,
+  "crowdPercentage": 4.0,
+  "crowdLevel": "Very Low",
+  "entries": 1,
+  "exits": 1,
+  "totalFootfall": 2,
+  "maxOccupancy": 2,
+  "currentOccupancy": 1,
+  "avgOccupancy": 1.7,
+  "videoLength": "0m 21s",
+  "fps": 25.0,
+  "totalFrames": 531,
+  "framesProcessed": 531,
+  "resolution": "768x432",
+  "totalObjects": 3,
+  "peopleCount": 3,
+  "shoppingCartsCount": 0,
+  "otherObjectsCount": 0,
+  "avgConfidence": "79.0%",
+  "minConfidence": "34.5%",
+  "maxConfidence": "95.2%",
+  "averageConfidence": "79.0%",
+  "detectionAccuracy": "79.0%",
+  "processingTime": 90.66,
+  "smoothedOccupancy": 1.6,
+  "smoothedCrowdPercentage": 3.2,
+  "crowdOverTime": [
+    {
+      "time": "00:00",
+      "peopleCount": 1,
+      "occupancy": 1,
+      "crowdPercentage": 2.0
+    },
+    {
+      "time": "00:01",
+      "peopleCount": 2,
+      "occupancy": 2,
+      "crowdPercentage": 4.0
+    },
+    {
+      "time": "00:03",
+      "peopleCount": 2,
+      "occupancy": 2,
+      "crowdPercentage": 4.0
+    },
+    {
+      "time": "00:05",
+      "peopleCount": 2,
+      "occupancy": 2,
+      "crowdPercentage": 4.0
+    },
+    {
+      "time": "00:07",
+      "peopleCount": 2,
+      "occupancy": 2,
+      "crowdPercentage": 4.0
+    },
+    {
+      "time": "00:08",
+      "peopleCount": 2,
+      "occupancy": 2,
+      "crowdPercentage": 4.0
+    },
+    {
+      "time": "00:10",
+      "peopleCount": 2,
+      "occupancy": 2,
+      "crowdPercentage": 4.0
+    },
+    {
+      "time": "00:12",
+      "peopleCount": 2,
+      "occupancy": 2,
+      "crowdPercentage": 4.0
+    },
+    {
+      "time": "00:14",
+      "peopleCount": 2,
+      "occupancy": 2,
+      "crowdPercentage": 4.0
+    },
+    {
+      "time": "00:15",
+      "peopleCount": 1,
+      "occupancy": 1,
+      "crowdPercentage": 2.0
+    },
+    {
+      "time": "00:17",
+      "peopleCount": 2,
+      "occupancy": 2,
+      "crowdPercentage": 4.0
+    },
+    {
+      "time": "00:19",
+      "peopleCount": 1,
+      "occupancy": 1,
+      "crowdPercentage": 2.0
+    }
+  ],
+  "occupancyTrend": [
+    {
+      "time": "00:00",
+      "occupancy": 1,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:01",
+      "occupancy": 2,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:03",
+      "occupancy": 2,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:05",
+      "occupancy": 2,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:07",
+      "occupancy": 2,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:08",
+      "occupancy": 2,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:10",
+      "occupancy": 2,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:12",
+      "occupancy": 2,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:14",
+      "occupancy": 2,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:15",
+      "occupancy": 1,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:17",
+      "occupancy": 2,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:19",
+      "occupancy": 1,
+      "maxCapacity": 50
+    }
+  ],
+  "previewFrames": [
+    {
+      "frameNumber": 0,
+      "timestamp": "00:00",
+      "detectedCount": 2,
+      "boxes": [
+        {
+          "id": "Person #1",
+          "label": "Person",
+          "confidence": "91.3%",
+          "bbox": [
+            0,
+            58,
+            130,
+            367
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "54.0%",
+          "bbox": [
+            713,
+            67,
+            55,
+            119
+          ]
+        }
+      ]
+    },
+    {
+      "frameNumber": 132,
+      "timestamp": "00:05",
+      "detectedCount": 4,
+      "boxes": [
+        {
+          "id": "Person #1",
+          "label": "Person",
+          "confidence": "88.5%",
+          "bbox": [
+            255,
+            77,
+            168,
+            351
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.6%",
+          "bbox": [
+            673,
+            74,
+            88,
+            122
+          ]
+        },
+        {
+          "id": "Person #2",
+          "label": "Person",
+          "confidence": "68.1%",
+          "bbox": [
+            2,
+            188,
+            71,
+            240
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.6%",
+          "bbox": [
+            673,
+            74,
+            88,
+            122
+          ]
+        }
+      ]
+    },
+    {
+      "frameNumber": 265,
+      "timestamp": "00:10",
+      "detectedCount": 4,
+      "boxes": [
+        {
+          "id": "Person #1",
+          "label": "Person",
+          "confidence": "79.8%",
+          "bbox": [
+            208,
+            73,
+            287,
+            356
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.5%",
+          "bbox": [
+            675,
+            54,
+            89,
+            122
+          ]
+        },
+        {
+          "id": "Person #2",
+          "label": "Person",
+          "confidence": "62.6%",
+          "bbox": [
+            0,
+            161,
+            31,
+            255
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.5%",
+          "bbox": [
+            675,
+            54,
+            89,
+            122
+          ]
+        }
+      ]
+    },
+    {
+      "frameNumber": 397,
+      "timestamp": "00:15",
+      "detectedCount": 2,
+      "boxes": [
+        {
+          "id": "Person #1",
+          "label": "Person",
+          "confidence": "87.0%",
+          "bbox": [
+            215,
+            42,
+            222,
+            385
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "71.1%",
+          "bbox": [
+            691,
+            54,
+            77,
+            120
+          ]
+        }
+      ]
+    },
+    {
+      "frameNumber": 530,
+      "timestamp": "00:21",
+      "detectedCount": 2,
+      "boxes": [
+        {
+          "id": "Person #1",
+          "label": "Person",
+          "confidence": "92.3%",
+          "bbox": [
+            89,
+            4,
+            277,
+            424
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "37.0%",
+          "bbox": [
+            0,
+            341,
+            65,
+            67
+          ]
+        }
+      ]
+    }
+  ],
+  "aiSummary": "Retail video analytics completed (0m 21s). Tracked 3 unique individuals across store zones. Peak simultaneous occupancy reached 2 (Avg occupancy: 1.7). Crowd density evaluated at 4.0% (Very Low Status) relative to store capacity (50). Registered 1 entries and 1 exits with an average detection confidence of 79.0%.",
+  "aiRecommendations": [
+    "Unique shoppers tracked: 3. Ensure shelf layout maximizes engagement for peak traffic zones.",
+    "Current crowd density level is Very Low (4.0%). Align staff allocation with peak occupancy windows.",
+    "Recorded 1 entrance line crossings and 1 exit crossings.",
+    "ByteTrack persistent tracking maintained across 531 frames with 79.0% average confidence."
+  ],
+  "totalProductsDetected": 1141,
+  "productsPerCategory": {
+    "object": 1141
+  },
+  "mostFrequentProduct": "object",
+  "averageProductConfidence": "57.6%",
+  "minDensity": 1,
+  "averageOccupancy": 1.7
+}

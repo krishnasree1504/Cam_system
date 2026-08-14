@@ -1,0 +1,5547 @@
+{
+  "detectionDistribution": [
+    {
+      "name": "People",
+      "value": 68,
+      "color": "#00E676"
+    }
+  ],
+  "crowdHeatTimeline": [
+    {
+      "time": "00:00",
+      "crowdPercentage": 28.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:00",
+      "crowdPercentage": 18.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:01",
+      "crowdPercentage": 20.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:01",
+      "crowdPercentage": 22.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:01",
+      "crowdPercentage": 16.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:02",
+      "crowdPercentage": 24.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:02",
+      "crowdPercentage": 26.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:03",
+      "crowdPercentage": 20.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:03",
+      "crowdPercentage": 12.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:04",
+      "crowdPercentage": 20.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:04",
+      "crowdPercentage": 20.0,
+      "status": "Low"
+    },
+    {
+      "time": "00:05",
+      "crowdPercentage": 20.0,
+      "status": "Low"
+    }
+  ],
+  "totalPeople": 29,
+  "uniquePeople": 68,
+  "maxCrowd": 14,
+  "minCrowd": 5,
+  "avgCrowd": 9.9,
+  "crowdPercentage": 28.0,
+  "crowdLevel": "Low",
+  "entries": 14,
+  "exits": 15,
+  "totalFootfall": 29,
+  "maxOccupancy": 14,
+  "currentOccupancy": 8,
+  "avgOccupancy": 9.9,
+  "videoLength": "0m 6s",
+  "fps": 25.0,
+  "totalFrames": 150,
+  "framesProcessed": 150,
+  "resolution": "1920x1080",
+  "totalObjects": 68,
+  "peopleCount": 68,
+  "shoppingCartsCount": 0,
+  "otherObjectsCount": 0,
+  "avgConfidence": "66.1%",
+  "minConfidence": "30.1%",
+  "maxConfidence": "92.0%",
+  "averageConfidence": "66.1%",
+  "detectionAccuracy": null,
+  "processingTime": 184.02,
+  "smoothedOccupancy": 10.2,
+  "smoothedCrowdPercentage": 20.3,
+  "crowdOverTime": [
+    {
+      "time": "00:00",
+      "peopleCount": 14,
+      "occupancy": 14,
+      "crowdPercentage": 28.0
+    },
+    {
+      "time": "00:00",
+      "peopleCount": 9,
+      "occupancy": 9,
+      "crowdPercentage": 18.0
+    },
+    {
+      "time": "00:01",
+      "peopleCount": 10,
+      "occupancy": 10,
+      "crowdPercentage": 20.0
+    },
+    {
+      "time": "00:01",
+      "peopleCount": 11,
+      "occupancy": 11,
+      "crowdPercentage": 22.0
+    },
+    {
+      "time": "00:01",
+      "peopleCount": 8,
+      "occupancy": 8,
+      "crowdPercentage": 16.0
+    },
+    {
+      "time": "00:02",
+      "peopleCount": 12,
+      "occupancy": 12,
+      "crowdPercentage": 24.0
+    },
+    {
+      "time": "00:02",
+      "peopleCount": 13,
+      "occupancy": 13,
+      "crowdPercentage": 26.0
+    },
+    {
+      "time": "00:03",
+      "peopleCount": 10,
+      "occupancy": 10,
+      "crowdPercentage": 20.0
+    },
+    {
+      "time": "00:03",
+      "peopleCount": 6,
+      "occupancy": 6,
+      "crowdPercentage": 12.0
+    },
+    {
+      "time": "00:04",
+      "peopleCount": 10,
+      "occupancy": 10,
+      "crowdPercentage": 20.0
+    },
+    {
+      "time": "00:04",
+      "peopleCount": 10,
+      "occupancy": 10,
+      "crowdPercentage": 20.0
+    },
+    {
+      "time": "00:05",
+      "peopleCount": 10,
+      "occupancy": 10,
+      "crowdPercentage": 20.0
+    }
+  ],
+  "occupancyTrend": [
+    {
+      "time": "00:00",
+      "occupancy": 14,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:00",
+      "occupancy": 9,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:01",
+      "occupancy": 10,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:01",
+      "occupancy": 11,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:01",
+      "occupancy": 8,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:02",
+      "occupancy": 12,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:02",
+      "occupancy": 13,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:03",
+      "occupancy": 10,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:03",
+      "occupancy": 6,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:04",
+      "occupancy": 10,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:04",
+      "occupancy": 10,
+      "maxCapacity": 50
+    },
+    {
+      "time": "00:05",
+      "occupancy": 10,
+      "maxCapacity": 50
+    }
+  ],
+  "previewFrames": [
+    {
+      "frameNumber": 0,
+      "timestamp": "00:00",
+      "detectedCount": 154,
+      "boxes": [
+        {
+          "id": "Person #1",
+          "label": "Person",
+          "confidence": "88.3%",
+          "bbox": [
+            192,
+            242,
+            289,
+            828
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        },
+        {
+          "id": "Person #2",
+          "label": "Person",
+          "confidence": "67.9%",
+          "bbox": [
+            803,
+            296,
+            125,
+            118
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        },
+        {
+          "id": "Person #3",
+          "label": "Person",
+          "confidence": "62.1%",
+          "bbox": [
+            625,
+            335,
+            344,
+            400
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        },
+        {
+          "id": "Person #4",
+          "label": "Person",
+          "confidence": "54.6%",
+          "bbox": [
+            374,
+            244,
+            117,
+            256
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        },
+        {
+          "id": "Person #5",
+          "label": "Person",
+          "confidence": "45.1%",
+          "bbox": [
+            1159,
+            281,
+            253,
+            684
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        },
+        {
+          "id": "Person #6",
+          "label": "Person",
+          "confidence": "41.5%",
+          "bbox": [
+            1088,
+            360,
+            103,
+            144
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        },
+        {
+          "id": "Person #7",
+          "label": "Person",
+          "confidence": "40.1%",
+          "bbox": [
+            1710,
+            231,
+            209,
+            400
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        },
+        {
+          "id": "Person #8",
+          "label": "Person",
+          "confidence": "40.1%",
+          "bbox": [
+            988,
+            348,
+            103,
+            157
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        },
+        {
+          "id": "Person #9",
+          "label": "Person",
+          "confidence": "38.8%",
+          "bbox": [
+            642,
+            273,
+            168,
+            221
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        },
+        {
+          "id": "Person #10",
+          "label": "Person",
+          "confidence": "35.5%",
+          "bbox": [
+            1058,
+            362,
+            136,
+            243
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        },
+        {
+          "id": "Person #11",
+          "label": "Person",
+          "confidence": "35.0%",
+          "bbox": [
+            516,
+            280,
+            130,
+            219
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        },
+        {
+          "id": "Person #12",
+          "label": "Person",
+          "confidence": "33.4%",
+          "bbox": [
+            1861,
+            254,
+            58,
+            105
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        },
+        {
+          "id": "Person #13",
+          "label": "Person",
+          "confidence": "32.9%",
+          "bbox": [
+            633,
+            278,
+            76,
+            207
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        },
+        {
+          "id": "Person #14",
+          "label": "Person",
+          "confidence": "30.3%",
+          "bbox": [
+            1633,
+            301,
+            112,
+            481
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "68.2%",
+          "bbox": [
+            446,
+            843,
+            124,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "59.9%",
+          "bbox": [
+            466,
+            288,
+            115,
+            329
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.8%",
+          "bbox": [
+            441,
+            641,
+            116,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "48.5%",
+          "bbox": [
+            593,
+            285,
+            195,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.9%",
+          "bbox": [
+            716,
+            806,
+            121,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.0%",
+          "bbox": [
+            843,
+            773,
+            172,
+            306
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.4%",
+          "bbox": [
+            574,
+            638,
+            150,
+            166
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "41.0%",
+          "bbox": [
+            1863,
+            278,
+            57,
+            322
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.1%",
+          "bbox": [
+            1767,
+            266,
+            89,
+            333
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.0%",
+          "bbox": [
+            45,
+            398,
+            149,
+            194
+          ]
+        }
+      ]
+    },
+    {
+      "frameNumber": 37,
+      "timestamp": "00:01",
+      "detectedCount": 56,
+      "boxes": [
+        {
+          "id": "Person #3",
+          "label": "Person",
+          "confidence": "80.7%",
+          "bbox": [
+            623,
+            336,
+            272,
+            398
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.8%",
+          "bbox": [
+            445,
+            840,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "55.1%",
+          "bbox": [
+            416,
+            276,
+            168,
+            345
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.0%",
+          "bbox": [
+            239,
+            695,
+            111,
+            360
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.9%",
+          "bbox": [
+            574,
+            634,
+            150,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.1%",
+          "bbox": [
+            434,
+            646,
+            123,
+            187
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.8%",
+          "bbox": [
+            714,
+            818,
+            121,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.3%",
+          "bbox": [
+            167,
+            694,
+            68,
+            371
+          ]
+        },
+        {
+          "id": "Person #10",
+          "label": "Person",
+          "confidence": "68.9%",
+          "bbox": [
+            1060,
+            235,
+            278,
+            532
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.8%",
+          "bbox": [
+            445,
+            840,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "55.1%",
+          "bbox": [
+            416,
+            276,
+            168,
+            345
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.0%",
+          "bbox": [
+            239,
+            695,
+            111,
+            360
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.9%",
+          "bbox": [
+            574,
+            634,
+            150,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.1%",
+          "bbox": [
+            434,
+            646,
+            123,
+            187
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.8%",
+          "bbox": [
+            714,
+            818,
+            121,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.3%",
+          "bbox": [
+            167,
+            694,
+            68,
+            371
+          ]
+        },
+        {
+          "id": "Person #1",
+          "label": "Person",
+          "confidence": "88.1%",
+          "bbox": [
+            108,
+            229,
+            341,
+            843
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.8%",
+          "bbox": [
+            445,
+            840,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "55.1%",
+          "bbox": [
+            416,
+            276,
+            168,
+            345
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.0%",
+          "bbox": [
+            239,
+            695,
+            111,
+            360
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.9%",
+          "bbox": [
+            574,
+            634,
+            150,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.1%",
+          "bbox": [
+            434,
+            646,
+            123,
+            187
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.8%",
+          "bbox": [
+            714,
+            818,
+            121,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.3%",
+          "bbox": [
+            167,
+            694,
+            68,
+            371
+          ]
+        },
+        {
+          "id": "Person #9",
+          "label": "Person",
+          "confidence": "68.9%",
+          "bbox": [
+            591,
+            269,
+            148,
+            266
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.8%",
+          "bbox": [
+            445,
+            840,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "55.1%",
+          "bbox": [
+            416,
+            276,
+            168,
+            345
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.0%",
+          "bbox": [
+            239,
+            695,
+            111,
+            360
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.9%",
+          "bbox": [
+            574,
+            634,
+            150,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.1%",
+          "bbox": [
+            434,
+            646,
+            123,
+            187
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.8%",
+          "bbox": [
+            714,
+            818,
+            121,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.3%",
+          "bbox": [
+            167,
+            694,
+            68,
+            371
+          ]
+        },
+        {
+          "id": "Person #83",
+          "label": "Person",
+          "confidence": "66.5%",
+          "bbox": [
+            477,
+            272,
+            111,
+            296
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.8%",
+          "bbox": [
+            445,
+            840,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "55.1%",
+          "bbox": [
+            416,
+            276,
+            168,
+            345
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.0%",
+          "bbox": [
+            239,
+            695,
+            111,
+            360
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.9%",
+          "bbox": [
+            574,
+            634,
+            150,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.1%",
+          "bbox": [
+            434,
+            646,
+            123,
+            187
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.8%",
+          "bbox": [
+            714,
+            818,
+            121,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.3%",
+          "bbox": [
+            167,
+            694,
+            68,
+            371
+          ]
+        },
+        {
+          "id": "Person #2",
+          "label": "Person",
+          "confidence": "52.9%",
+          "bbox": [
+            783,
+            298,
+            105,
+            118
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.8%",
+          "bbox": [
+            445,
+            840,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "55.1%",
+          "bbox": [
+            416,
+            276,
+            168,
+            345
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.0%",
+          "bbox": [
+            239,
+            695,
+            111,
+            360
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.9%",
+          "bbox": [
+            574,
+            634,
+            150,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.1%",
+          "bbox": [
+            434,
+            646,
+            123,
+            187
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.8%",
+          "bbox": [
+            714,
+            818,
+            121,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.3%",
+          "bbox": [
+            167,
+            694,
+            68,
+            371
+          ]
+        },
+        {
+          "id": "Person #96",
+          "label": "Person",
+          "confidence": "32.6%",
+          "bbox": [
+            1299,
+            347,
+            64,
+            102
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.8%",
+          "bbox": [
+            445,
+            840,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "55.1%",
+          "bbox": [
+            416,
+            276,
+            168,
+            345
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.0%",
+          "bbox": [
+            239,
+            695,
+            111,
+            360
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.9%",
+          "bbox": [
+            574,
+            634,
+            150,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.1%",
+          "bbox": [
+            434,
+            646,
+            123,
+            187
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.8%",
+          "bbox": [
+            714,
+            818,
+            121,
+            178
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "31.3%",
+          "bbox": [
+            167,
+            694,
+            68,
+            371
+          ]
+        }
+      ]
+    },
+    {
+      "frameNumber": 74,
+      "timestamp": "00:03",
+      "detectedCount": 104,
+      "boxes": [
+        {
+          "id": "Person #2",
+          "label": "Person",
+          "confidence": "62.2%",
+          "bbox": [
+            767,
+            270,
+            147,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.7%",
+          "bbox": [
+            843,
+            769,
+            171,
+            311
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.9%",
+          "bbox": [
+            447,
+            847,
+            123,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "49.2%",
+          "bbox": [
+            576,
+            633,
+            147,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "45.1%",
+          "bbox": [
+            426,
+            645,
+            132,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.5%",
+          "bbox": [
+            386,
+            323,
+            194,
+            298
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.0%",
+          "bbox": [
+            718,
+            814,
+            118,
+            184
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "36.2%",
+          "bbox": [
+            0,
+            935,
+            140,
+            145
+          ]
+        },
+        {
+          "id": "Person #83",
+          "label": "Person",
+          "confidence": "65.1%",
+          "bbox": [
+            504,
+            274,
+            182,
+            295
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.7%",
+          "bbox": [
+            843,
+            769,
+            171,
+            311
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.9%",
+          "bbox": [
+            447,
+            847,
+            123,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "49.2%",
+          "bbox": [
+            576,
+            633,
+            147,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "45.1%",
+          "bbox": [
+            426,
+            645,
+            132,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.5%",
+          "bbox": [
+            386,
+            323,
+            194,
+            298
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.0%",
+          "bbox": [
+            718,
+            814,
+            118,
+            184
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "36.2%",
+          "bbox": [
+            0,
+            935,
+            140,
+            145
+          ]
+        },
+        {
+          "id": "Person #10",
+          "label": "Person",
+          "confidence": "74.4%",
+          "bbox": [
+            1008,
+            234,
+            317,
+            673
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.7%",
+          "bbox": [
+            843,
+            769,
+            171,
+            311
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.9%",
+          "bbox": [
+            447,
+            847,
+            123,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "49.2%",
+          "bbox": [
+            576,
+            633,
+            147,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "45.1%",
+          "bbox": [
+            426,
+            645,
+            132,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.5%",
+          "bbox": [
+            386,
+            323,
+            194,
+            298
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.0%",
+          "bbox": [
+            718,
+            814,
+            118,
+            184
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "36.2%",
+          "bbox": [
+            0,
+            935,
+            140,
+            145
+          ]
+        },
+        {
+          "id": "Person #1",
+          "label": "Person",
+          "confidence": "90.3%",
+          "bbox": [
+            69,
+            163,
+            367,
+            915
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.7%",
+          "bbox": [
+            843,
+            769,
+            171,
+            311
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.9%",
+          "bbox": [
+            447,
+            847,
+            123,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "49.2%",
+          "bbox": [
+            576,
+            633,
+            147,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "45.1%",
+          "bbox": [
+            426,
+            645,
+            132,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.5%",
+          "bbox": [
+            386,
+            323,
+            194,
+            298
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.0%",
+          "bbox": [
+            718,
+            814,
+            118,
+            184
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "36.2%",
+          "bbox": [
+            0,
+            935,
+            140,
+            145
+          ]
+        },
+        {
+          "id": "Person #3",
+          "label": "Person",
+          "confidence": "75.0%",
+          "bbox": [
+            620,
+            340,
+            291,
+            400
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.7%",
+          "bbox": [
+            843,
+            769,
+            171,
+            311
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.9%",
+          "bbox": [
+            447,
+            847,
+            123,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "49.2%",
+          "bbox": [
+            576,
+            633,
+            147,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "45.1%",
+          "bbox": [
+            426,
+            645,
+            132,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.5%",
+          "bbox": [
+            386,
+            323,
+            194,
+            298
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.0%",
+          "bbox": [
+            718,
+            814,
+            118,
+            184
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "36.2%",
+          "bbox": [
+            0,
+            935,
+            140,
+            145
+          ]
+        },
+        {
+          "id": "Person #84",
+          "label": "Person",
+          "confidence": "37.6%",
+          "bbox": [
+            963,
+            320,
+            81,
+            185
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.7%",
+          "bbox": [
+            843,
+            769,
+            171,
+            311
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.9%",
+          "bbox": [
+            447,
+            847,
+            123,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "49.2%",
+          "bbox": [
+            576,
+            633,
+            147,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "45.1%",
+          "bbox": [
+            426,
+            645,
+            132,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.5%",
+          "bbox": [
+            386,
+            323,
+            194,
+            298
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.0%",
+          "bbox": [
+            718,
+            814,
+            118,
+            184
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "36.2%",
+          "bbox": [
+            0,
+            935,
+            140,
+            145
+          ]
+        },
+        {
+          "id": "Person #96",
+          "label": "Person",
+          "confidence": "55.5%",
+          "bbox": [
+            1335,
+            336,
+            151,
+            246
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.7%",
+          "bbox": [
+            843,
+            769,
+            171,
+            311
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.9%",
+          "bbox": [
+            447,
+            847,
+            123,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "49.2%",
+          "bbox": [
+            576,
+            633,
+            147,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "45.1%",
+          "bbox": [
+            426,
+            645,
+            132,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.5%",
+          "bbox": [
+            386,
+            323,
+            194,
+            298
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.0%",
+          "bbox": [
+            718,
+            814,
+            118,
+            184
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "36.2%",
+          "bbox": [
+            0,
+            935,
+            140,
+            145
+          ]
+        },
+        {
+          "id": "Person #123",
+          "label": "Person",
+          "confidence": "80.0%",
+          "bbox": [
+            1549,
+            313,
+            122,
+            360
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.7%",
+          "bbox": [
+            843,
+            769,
+            171,
+            311
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.9%",
+          "bbox": [
+            447,
+            847,
+            123,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "49.2%",
+          "bbox": [
+            576,
+            633,
+            147,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "45.1%",
+          "bbox": [
+            426,
+            645,
+            132,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.5%",
+          "bbox": [
+            386,
+            323,
+            194,
+            298
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.0%",
+          "bbox": [
+            718,
+            814,
+            118,
+            184
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "36.2%",
+          "bbox": [
+            0,
+            935,
+            140,
+            145
+          ]
+        },
+        {
+          "id": "Person #132",
+          "label": "Person",
+          "confidence": "32.3%",
+          "bbox": [
+            1286,
+            337,
+            90,
+            126
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.7%",
+          "bbox": [
+            843,
+            769,
+            171,
+            311
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.9%",
+          "bbox": [
+            447,
+            847,
+            123,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "49.2%",
+          "bbox": [
+            576,
+            633,
+            147,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "45.1%",
+          "bbox": [
+            426,
+            645,
+            132,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.5%",
+          "bbox": [
+            386,
+            323,
+            194,
+            298
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.0%",
+          "bbox": [
+            718,
+            814,
+            118,
+            184
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "36.2%",
+          "bbox": [
+            0,
+            935,
+            140,
+            145
+          ]
+        },
+        {
+          "id": "Person #131",
+          "label": "Person",
+          "confidence": "46.7%",
+          "bbox": [
+            1453,
+            323,
+            159,
+            325
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.7%",
+          "bbox": [
+            843,
+            769,
+            171,
+            311
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.9%",
+          "bbox": [
+            447,
+            847,
+            123,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "49.2%",
+          "bbox": [
+            576,
+            633,
+            147,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "45.1%",
+          "bbox": [
+            426,
+            645,
+            132,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.5%",
+          "bbox": [
+            386,
+            323,
+            194,
+            298
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.0%",
+          "bbox": [
+            718,
+            814,
+            118,
+            184
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "36.2%",
+          "bbox": [
+            0,
+            935,
+            140,
+            145
+          ]
+        },
+        {
+          "id": "Person #20",
+          "label": "Person",
+          "confidence": "78.4%",
+          "bbox": [
+            1711,
+            304,
+            145,
+            380
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.7%",
+          "bbox": [
+            843,
+            769,
+            171,
+            311
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.9%",
+          "bbox": [
+            447,
+            847,
+            123,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "49.2%",
+          "bbox": [
+            576,
+            633,
+            147,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "45.1%",
+          "bbox": [
+            426,
+            645,
+            132,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.5%",
+          "bbox": [
+            386,
+            323,
+            194,
+            298
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.0%",
+          "bbox": [
+            718,
+            814,
+            118,
+            184
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "36.2%",
+          "bbox": [
+            0,
+            935,
+            140,
+            145
+          ]
+        },
+        {
+          "id": "Person #63",
+          "label": "Person",
+          "confidence": "49.7%",
+          "bbox": [
+            355,
+            277,
+            164,
+            290
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.7%",
+          "bbox": [
+            843,
+            769,
+            171,
+            311
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.9%",
+          "bbox": [
+            447,
+            847,
+            123,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "49.2%",
+          "bbox": [
+            576,
+            633,
+            147,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "45.1%",
+          "bbox": [
+            426,
+            645,
+            132,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.5%",
+          "bbox": [
+            386,
+            323,
+            194,
+            298
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.0%",
+          "bbox": [
+            718,
+            814,
+            118,
+            184
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "36.2%",
+          "bbox": [
+            0,
+            935,
+            140,
+            145
+          ]
+        },
+        {
+          "id": "Person #122",
+          "label": "Person",
+          "confidence": "39.7%",
+          "bbox": [
+            874,
+            308,
+            101,
+            107
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "63.7%",
+          "bbox": [
+            843,
+            769,
+            171,
+            311
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.9%",
+          "bbox": [
+            447,
+            847,
+            123,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "49.2%",
+          "bbox": [
+            576,
+            633,
+            147,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "45.1%",
+          "bbox": [
+            426,
+            645,
+            132,
+            186
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.5%",
+          "bbox": [
+            386,
+            323,
+            194,
+            298
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.0%",
+          "bbox": [
+            718,
+            814,
+            118,
+            184
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "36.2%",
+          "bbox": [
+            0,
+            935,
+            140,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "frameNumber": 111,
+      "timestamp": "00:04",
+      "detectedCount": 108,
+      "boxes": [
+        {
+          "id": "Person #1",
+          "label": "Person",
+          "confidence": "90.5%",
+          "bbox": [
+            141,
+            182,
+            369,
+            892
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "61.2%",
+          "bbox": [
+            447,
+            843,
+            124,
+            182
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.1%",
+          "bbox": [
+            845,
+            771,
+            169,
+            309
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "52.1%",
+          "bbox": [
+            427,
+            278,
+            153,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.2%",
+          "bbox": [
+            432,
+            651,
+            154,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.2%",
+          "bbox": [
+            856,
+            407,
+            144,
+            224
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.0%",
+          "bbox": [
+            285,
+            636,
+            95,
+            422
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.2%",
+          "bbox": [
+            752,
+            851,
+            88,
+            145
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "37.4%",
+          "bbox": [
+            675,
+            473,
+            162,
+            156
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.8%",
+          "bbox": [
+            593,
+            295,
+            74,
+            313
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.9%",
+          "bbox": [
+            608,
+            636,
+            165,
+            153
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.1%",
+          "bbox": [
+            1022,
+            744,
+            133,
+            327
+          ]
+        },
+        {
+          "id": "Person #180",
+          "label": "Person",
+          "confidence": "80.6%",
+          "bbox": [
+            444,
+            272,
+            115,
+            294
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "61.2%",
+          "bbox": [
+            447,
+            843,
+            124,
+            182
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.1%",
+          "bbox": [
+            845,
+            771,
+            169,
+            309
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "52.1%",
+          "bbox": [
+            427,
+            278,
+            153,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.2%",
+          "bbox": [
+            432,
+            651,
+            154,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.2%",
+          "bbox": [
+            856,
+            407,
+            144,
+            224
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.0%",
+          "bbox": [
+            285,
+            636,
+            95,
+            422
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.2%",
+          "bbox": [
+            752,
+            851,
+            88,
+            145
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "37.4%",
+          "bbox": [
+            675,
+            473,
+            162,
+            156
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.8%",
+          "bbox": [
+            593,
+            295,
+            74,
+            313
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.9%",
+          "bbox": [
+            608,
+            636,
+            165,
+            153
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.1%",
+          "bbox": [
+            1022,
+            744,
+            133,
+            327
+          ]
+        },
+        {
+          "id": "Person #2",
+          "label": "Person",
+          "confidence": "44.5%",
+          "bbox": [
+            859,
+            265,
+            179,
+            176
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "61.2%",
+          "bbox": [
+            447,
+            843,
+            124,
+            182
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.1%",
+          "bbox": [
+            845,
+            771,
+            169,
+            309
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "52.1%",
+          "bbox": [
+            427,
+            278,
+            153,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.2%",
+          "bbox": [
+            432,
+            651,
+            154,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.2%",
+          "bbox": [
+            856,
+            407,
+            144,
+            224
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.0%",
+          "bbox": [
+            285,
+            636,
+            95,
+            422
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.2%",
+          "bbox": [
+            752,
+            851,
+            88,
+            145
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "37.4%",
+          "bbox": [
+            675,
+            473,
+            162,
+            156
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.8%",
+          "bbox": [
+            593,
+            295,
+            74,
+            313
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.9%",
+          "bbox": [
+            608,
+            636,
+            165,
+            153
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.1%",
+          "bbox": [
+            1022,
+            744,
+            133,
+            327
+          ]
+        },
+        {
+          "id": "Person #96",
+          "label": "Person",
+          "confidence": "53.0%",
+          "bbox": [
+            1371,
+            286,
+            137,
+            242
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "61.2%",
+          "bbox": [
+            447,
+            843,
+            124,
+            182
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.1%",
+          "bbox": [
+            845,
+            771,
+            169,
+            309
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "52.1%",
+          "bbox": [
+            427,
+            278,
+            153,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.2%",
+          "bbox": [
+            432,
+            651,
+            154,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.2%",
+          "bbox": [
+            856,
+            407,
+            144,
+            224
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.0%",
+          "bbox": [
+            285,
+            636,
+            95,
+            422
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.2%",
+          "bbox": [
+            752,
+            851,
+            88,
+            145
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "37.4%",
+          "bbox": [
+            675,
+            473,
+            162,
+            156
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.8%",
+          "bbox": [
+            593,
+            295,
+            74,
+            313
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.9%",
+          "bbox": [
+            608,
+            636,
+            165,
+            153
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.1%",
+          "bbox": [
+            1022,
+            744,
+            133,
+            327
+          ]
+        },
+        {
+          "id": "Person #187",
+          "label": "Person",
+          "confidence": "70.9%",
+          "bbox": [
+            599,
+            268,
+            209,
+            249
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "61.2%",
+          "bbox": [
+            447,
+            843,
+            124,
+            182
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.1%",
+          "bbox": [
+            845,
+            771,
+            169,
+            309
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "52.1%",
+          "bbox": [
+            427,
+            278,
+            153,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.2%",
+          "bbox": [
+            432,
+            651,
+            154,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.2%",
+          "bbox": [
+            856,
+            407,
+            144,
+            224
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.0%",
+          "bbox": [
+            285,
+            636,
+            95,
+            422
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.2%",
+          "bbox": [
+            752,
+            851,
+            88,
+            145
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "37.4%",
+          "bbox": [
+            675,
+            473,
+            162,
+            156
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.8%",
+          "bbox": [
+            593,
+            295,
+            74,
+            313
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.9%",
+          "bbox": [
+            608,
+            636,
+            165,
+            153
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.1%",
+          "bbox": [
+            1022,
+            744,
+            133,
+            327
+          ]
+        },
+        {
+          "id": "Person #125",
+          "label": "Person",
+          "confidence": "90.0%",
+          "bbox": [
+            1626,
+            224,
+            294,
+            847
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "61.2%",
+          "bbox": [
+            447,
+            843,
+            124,
+            182
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.1%",
+          "bbox": [
+            845,
+            771,
+            169,
+            309
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "52.1%",
+          "bbox": [
+            427,
+            278,
+            153,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.2%",
+          "bbox": [
+            432,
+            651,
+            154,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.2%",
+          "bbox": [
+            856,
+            407,
+            144,
+            224
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.0%",
+          "bbox": [
+            285,
+            636,
+            95,
+            422
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.2%",
+          "bbox": [
+            752,
+            851,
+            88,
+            145
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "37.4%",
+          "bbox": [
+            675,
+            473,
+            162,
+            156
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.8%",
+          "bbox": [
+            593,
+            295,
+            74,
+            313
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.9%",
+          "bbox": [
+            608,
+            636,
+            165,
+            153
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.1%",
+          "bbox": [
+            1022,
+            744,
+            133,
+            327
+          ]
+        },
+        {
+          "id": "Person #138",
+          "label": "Person",
+          "confidence": "56.0%",
+          "bbox": [
+            1569,
+            311,
+            110,
+            356
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "61.2%",
+          "bbox": [
+            447,
+            843,
+            124,
+            182
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.1%",
+          "bbox": [
+            845,
+            771,
+            169,
+            309
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "52.1%",
+          "bbox": [
+            427,
+            278,
+            153,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.2%",
+          "bbox": [
+            432,
+            651,
+            154,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.2%",
+          "bbox": [
+            856,
+            407,
+            144,
+            224
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.0%",
+          "bbox": [
+            285,
+            636,
+            95,
+            422
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.2%",
+          "bbox": [
+            752,
+            851,
+            88,
+            145
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "37.4%",
+          "bbox": [
+            675,
+            473,
+            162,
+            156
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.8%",
+          "bbox": [
+            593,
+            295,
+            74,
+            313
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.9%",
+          "bbox": [
+            608,
+            636,
+            165,
+            153
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.1%",
+          "bbox": [
+            1022,
+            744,
+            133,
+            327
+          ]
+        },
+        {
+          "id": "Person #3",
+          "label": "Person",
+          "confidence": "74.8%",
+          "bbox": [
+            662,
+            324,
+            269,
+            474
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "61.2%",
+          "bbox": [
+            447,
+            843,
+            124,
+            182
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.1%",
+          "bbox": [
+            845,
+            771,
+            169,
+            309
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "52.1%",
+          "bbox": [
+            427,
+            278,
+            153,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.2%",
+          "bbox": [
+            432,
+            651,
+            154,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.2%",
+          "bbox": [
+            856,
+            407,
+            144,
+            224
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.0%",
+          "bbox": [
+            285,
+            636,
+            95,
+            422
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.2%",
+          "bbox": [
+            752,
+            851,
+            88,
+            145
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "37.4%",
+          "bbox": [
+            675,
+            473,
+            162,
+            156
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.8%",
+          "bbox": [
+            593,
+            295,
+            74,
+            313
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.9%",
+          "bbox": [
+            608,
+            636,
+            165,
+            153
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.1%",
+          "bbox": [
+            1022,
+            744,
+            133,
+            327
+          ]
+        },
+        {
+          "id": "Person #161",
+          "label": "Person",
+          "confidence": "84.8%",
+          "bbox": [
+            1094,
+            227,
+            246,
+            727
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "61.2%",
+          "bbox": [
+            447,
+            843,
+            124,
+            182
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "58.1%",
+          "bbox": [
+            845,
+            771,
+            169,
+            309
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "52.1%",
+          "bbox": [
+            427,
+            278,
+            153,
+            344
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "46.2%",
+          "bbox": [
+            432,
+            651,
+            154,
+            179
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.2%",
+          "bbox": [
+            856,
+            407,
+            144,
+            224
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "40.0%",
+          "bbox": [
+            285,
+            636,
+            95,
+            422
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "38.2%",
+          "bbox": [
+            752,
+            851,
+            88,
+            145
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "37.4%",
+          "bbox": [
+            675,
+            473,
+            162,
+            156
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "34.8%",
+          "bbox": [
+            593,
+            295,
+            74,
+            313
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.9%",
+          "bbox": [
+            608,
+            636,
+            165,
+            153
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.1%",
+          "bbox": [
+            1022,
+            744,
+            133,
+            327
+          ]
+        }
+      ]
+    },
+    {
+      "frameNumber": 149,
+      "timestamp": "00:06",
+      "detectedCount": 56,
+      "boxes": [
+        {
+          "id": "Person #1",
+          "label": "Person",
+          "confidence": "88.0%",
+          "bbox": [
+            136,
+            285,
+            313,
+            790
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "60.1%",
+          "bbox": [
+            448,
+            846,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.5%",
+          "bbox": [
+            273,
+            578,
+            120,
+            471
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.8%",
+          "bbox": [
+            435,
+            647,
+            147,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.7%",
+          "bbox": [
+            617,
+            4,
+            305,
+            246
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.2%",
+          "bbox": [
+            598,
+            634,
+            185,
+            150
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.9%",
+          "bbox": [
+            379,
+            285,
+            203,
+            339
+          ]
+        },
+        {
+          "id": "Person #3",
+          "label": "Person",
+          "confidence": "79.0%",
+          "bbox": [
+            638,
+            333,
+            294,
+            395
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "60.1%",
+          "bbox": [
+            448,
+            846,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.5%",
+          "bbox": [
+            273,
+            578,
+            120,
+            471
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.8%",
+          "bbox": [
+            435,
+            647,
+            147,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.7%",
+          "bbox": [
+            617,
+            4,
+            305,
+            246
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.2%",
+          "bbox": [
+            598,
+            634,
+            185,
+            150
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.9%",
+          "bbox": [
+            379,
+            285,
+            203,
+            339
+          ]
+        },
+        {
+          "id": "Person #223",
+          "label": "Person",
+          "confidence": "84.8%",
+          "bbox": [
+            6,
+            514,
+            123,
+            536
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "60.1%",
+          "bbox": [
+            448,
+            846,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.5%",
+          "bbox": [
+            273,
+            578,
+            120,
+            471
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.8%",
+          "bbox": [
+            435,
+            647,
+            147,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.7%",
+          "bbox": [
+            617,
+            4,
+            305,
+            246
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.2%",
+          "bbox": [
+            598,
+            634,
+            185,
+            150
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.9%",
+          "bbox": [
+            379,
+            285,
+            203,
+            339
+          ]
+        },
+        {
+          "id": "Person #226",
+          "label": "Person",
+          "confidence": "72.8%",
+          "bbox": [
+            485,
+            277,
+            185,
+            292
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "60.1%",
+          "bbox": [
+            448,
+            846,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.5%",
+          "bbox": [
+            273,
+            578,
+            120,
+            471
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.8%",
+          "bbox": [
+            435,
+            647,
+            147,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.7%",
+          "bbox": [
+            617,
+            4,
+            305,
+            246
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.2%",
+          "bbox": [
+            598,
+            634,
+            185,
+            150
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.9%",
+          "bbox": [
+            379,
+            285,
+            203,
+            339
+          ]
+        },
+        {
+          "id": "Person #143",
+          "label": "Person",
+          "confidence": "74.3%",
+          "bbox": [
+            1781,
+            313,
+            135,
+            485
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "60.1%",
+          "bbox": [
+            448,
+            846,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.5%",
+          "bbox": [
+            273,
+            578,
+            120,
+            471
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.8%",
+          "bbox": [
+            435,
+            647,
+            147,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.7%",
+          "bbox": [
+            617,
+            4,
+            305,
+            246
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.2%",
+          "bbox": [
+            598,
+            634,
+            185,
+            150
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.9%",
+          "bbox": [
+            379,
+            285,
+            203,
+            339
+          ]
+        },
+        {
+          "id": "Person #138",
+          "label": "Person",
+          "confidence": "67.4%",
+          "bbox": [
+            1507,
+            262,
+            107,
+            309
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "60.1%",
+          "bbox": [
+            448,
+            846,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.5%",
+          "bbox": [
+            273,
+            578,
+            120,
+            471
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.8%",
+          "bbox": [
+            435,
+            647,
+            147,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.7%",
+          "bbox": [
+            617,
+            4,
+            305,
+            246
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.2%",
+          "bbox": [
+            598,
+            634,
+            185,
+            150
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.9%",
+          "bbox": [
+            379,
+            285,
+            203,
+            339
+          ]
+        },
+        {
+          "id": "Person #182",
+          "label": "Person",
+          "confidence": "47.1%",
+          "bbox": [
+            1007,
+            241,
+            189,
+            380
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "60.1%",
+          "bbox": [
+            448,
+            846,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.5%",
+          "bbox": [
+            273,
+            578,
+            120,
+            471
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.8%",
+          "bbox": [
+            435,
+            647,
+            147,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.7%",
+          "bbox": [
+            617,
+            4,
+            305,
+            246
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.2%",
+          "bbox": [
+            598,
+            634,
+            185,
+            150
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.9%",
+          "bbox": [
+            379,
+            285,
+            203,
+            339
+          ]
+        },
+        {
+          "id": "Person #96",
+          "label": "Person",
+          "confidence": "70.4%",
+          "bbox": [
+            1348,
+            310,
+            140,
+            227
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "60.1%",
+          "bbox": [
+            448,
+            846,
+            124,
+            181
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "44.5%",
+          "bbox": [
+            273,
+            578,
+            120,
+            471
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.8%",
+          "bbox": [
+            435,
+            647,
+            147,
+            192
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "42.7%",
+          "bbox": [
+            617,
+            4,
+            305,
+            246
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "33.2%",
+          "bbox": [
+            598,
+            634,
+            185,
+            150
+          ]
+        },
+        {
+          "id": "object",
+          "label": "Product",
+          "confidence": "32.9%",
+          "bbox": [
+            379,
+            285,
+            203,
+            339
+          ]
+        }
+      ]
+    }
+  ],
+  "aiSummary": "Retail video analytics completed (0m 6s). Tracked 68 unique individuals across store zones. Peak simultaneous occupancy reached 14 (Avg occupancy: 9.9). Crowd density evaluated at 28.0% (Low Status) relative to store capacity (50). Registered 14 entries and 15 exits with an average detection confidence of 66.1%.",
+  "aiRecommendations": [
+    "Unique shoppers tracked: 68. Ensure shelf layout maximizes engagement for peak traffic zones.",
+    "Current crowd density level is Low (28.0%). Align staff allocation with peak occupancy windows.",
+    "Recorded 14 entrance line crossings and 15 exit crossings.",
+    "ByteTrack persistent tracking maintained across 150 frames with 66.1% average confidence."
+  ],
+  "totalProductsDetected": 12404,
+  "productsPerCategory": {
+    "object": 12404
+  },
+  "mostFrequentProduct": "object",
+  "averageProductConfidence": "44.6%",
+  "minDensity": 5,
+  "averageOccupancy": 9.9
+}
