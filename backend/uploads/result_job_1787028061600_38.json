@@ -1,0 +1,164 @@
+{
+  "success": true,
+  "totalPeople": 0,
+  "uniquePeople": 0,
+  "maxCrowd": 0,
+  "minCrowd": 0,
+  "avgCrowd": 0.0,
+  "crowdPercentage": 0.0,
+  "crowdLevel": "Very Low",
+  "entries": 0,
+  "exits": 0,
+  "totalFootfall": 0,
+  "maxOccupancy": 0,
+  "currentOccupancy": 0,
+  "avgOccupancy": 0.0,
+  "videoLength": "00:02",
+  "fps": 30.0,
+  "totalFrames": 60,
+  "framesProcessed": 0,
+  "resolution": "1920x1080",
+  "totalObjects": 0,
+  "peopleCount": 0,
+  "avgConfidence": "0.0%",
+  "minConfidence": "0.0%",
+  "maxConfidence": "0.0%",
+  "processingTime": 0.0,
+  "crowdOverTime": [],
+  "occupancyTrend": [],
+  "crowdHeatTimeline": [],
+  "previewFrames": [],
+  "aiSummary": "Retail video analysis completed for store video footage (00:02). 0 customers were detected in the video stream. Please verify camera angle, lighting, and detection confidence settings.",
+  "aiRecommendations": [
+    "Tracked 0 unique shoppers. Analysis confidence level: Low.",
+    "Current crowd density level is Very Low (0.0%).",
+    "Recorded 0 entrance line crossings and 0 exit crossings."
+  ],
+  "shelfMetrics": {
+    "shelf_1": {
+      "visits": 0,
+      "totalDwellFrames": 0,
+      "maxDwellFrames": 0,
+      "peakOccupancy": 0,
+      "uniqueVisitorsCount": 0,
+      "totalDwellSeconds": 0.0,
+      "averageDwellSeconds": 0.0,
+      "maxDwellSeconds": 0.0
+    },
+    "shelf_2": {
+      "visits": 0,
+      "totalDwellFrames": 0,
+      "maxDwellFrames": 0,
+      "peakOccupancy": 0,
+      "uniqueVisitorsCount": 0,
+      "totalDwellSeconds": 0.0,
+      "averageDwellSeconds": 0.0,
+      "maxDwellSeconds": 0.0
+    },
+    "shelf_3": {
+      "visits": 0,
+      "totalDwellFrames": 0,
+      "maxDwellFrames": 0,
+      "peakOccupancy": 0,
+      "uniqueVisitorsCount": 0,
+      "totalDwellSeconds": 0.0,
+      "averageDwellSeconds": 0.0,
+      "maxDwellSeconds": 0.0
+    },
+    "shelf_4": {
+      "visits": 0,
+      "totalDwellFrames": 0,
+      "maxDwellFrames": 0,
+      "peakOccupancy": 0,
+      "uniqueVisitorsCount": 0,
+      "totalDwellSeconds": 0.0,
+      "averageDwellSeconds": 0.0,
+      "maxDwellSeconds": 0.0
+    }
+  },
+  "attentionScores": {
+    "shelf_1": 0.0,
+    "shelf_2": 0.0,
+    "shelf_3": 0.0,
+    "shelf_4": 0.0
+  },
+  "mostAttendedShelf": null,
+  "productDensity": {
+    "shelf_1": 0,
+    "shelf_2": 0,
+    "shelf_3": 0,
+    "shelf_4": 0
+  },
+  "productEngagement": [],
+  "totalProductsDetected": 0,
+  "productsPerCategory": {},
+  "mostFrequentProduct": null,
+  "averageProductConfidence": "0.0%",
+  "customerJourney": {
+    "mostCommonPath": "Insufficient customer movement data for reliable journey analysis.",
+    "averageShelvesVisited": 0.0,
+    "averageJourneyDurationSec": 0.0,
+    "totalVisits": 0
+  },
+  "insights": [
+    "No customer attention insights available because no customer shelf visits were detected in the video."
+  ],
+  "optimizations": [
+    {
+      "observation": "No customer presence detected across shelf zones.",
+      "supportingMetric": "0 visits recorded",
+      "recommendation": "Verify camera positioning and lighting for optimal video analytics coverage.",
+      "confidence": "Low"
+    }
+  ],
+  "dataQuality": {
+    "confidence": "Low",
+    "customersDetected": 0,
+    "validTracks": 0,
+    "productDetections": 0,
+    "notes": "No customers reliably detected in the video stream. Analytics confidence is limited."
+  },
+  "heatmapData": [],
+  "diagnostics": {
+    "video": {
+      "path": "C:\\Users\\91918\\Downloads\\cam_system\\backend\\uploads\\video_1787028061545_539654048.mp4",
+      "exists": true,
+      "opened": false,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "totalFrames": 60
+    },
+    "personModel": {
+      "path": "C:\\Users\\91918\\Downloads\\cam_system\\backend\\python\\models\\yolov8n.pt",
+      "exists": true,
+      "loaded": false
+    },
+    "productModel": {
+      "path": "C:\\Users\\91918\\Downloads\\cam_system\\backend\\python\\models\\best.pt",
+      "exists": true,
+      "loaded": false,
+      "detectionsCount": 0
+    },
+    "tracking": {
+      "rawDetectionsTotal": 0,
+      "uniqueTrackedCustomers": 0,
+      "validTracksCount": 0,
+      "averageTrackDurationSec": 0.0
+    },
+    "shelf": {
+      "configuredZonesCount": 4,
+      "shelfVisitsCount": 0,
+      "totalDwellSeconds": 0.0
+    },
+    "annotatedFrames": [],
+    "quality": {
+      "confidence": "Low",
+      "customersDetected": 0,
+      "validTracks": 0,
+      "productDetections": 0,
+      "notes": "No customers reliably detected in the video stream. Analytics confidence is limited."
+    },
+    "diagnosticSummaryText": "======================================================================\nCAMS CRITICAL DIAGNOSTIC SUMMARY\n======================================================================\n1. Video File: C:\\Users\\91918\\Downloads\\cam_system\\backend\\uploads\\video_1787028061545_539654048.mp4 (1920x1080 @ 30.0 FPS, 60 frames)\n2. Person Model (yolov8n.pt): FAILED\n3. Person Tracking (ByteTrack): 0 raw detections -> 0 unique tracks (0 valid >= 1.0s)\n4. Product Model (best.pt): NOT PRESENT (0 product detections)\n5. Shelf Zones: 4 zones configured\n6. Customer-Shelf Associations: 0 valid shelf visits recorded\n7. Total Dwell Time: 0.0s across all shelves\n8. Product Associations: 0 product classes with engagement\n9. Data Quality Rating: Low (No customers reliably detected in the video stream. Analytics confidence is limited.)\n======================================================================"
+  }
+}

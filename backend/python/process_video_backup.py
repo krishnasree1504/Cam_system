@@ -14,11 +14,6 @@ import math
 import argparse
 from pathlib import Path
 from typing import Dict, List, Any, Tuple
-try:
-    from gaze_estimator import GazeEstimator
-except ImportError as e:
-    print(f"[CAMS] Gaze estimator import failed: {e}", file=sys.stderr)
-    GazeEstimator = None
 
 try:
     import numpy as np
@@ -68,14 +63,6 @@ try:
 except ImportError as ie:
     print(f"[CAMS WARNING] ultralytics YOLO not installed: {ie}", file=sys.stderr)
     YOLO = None
-try:
-    from gaze_estimator import GazeEstimator
-except ImportError as ge:
-    print(
-        f"[CAMS WARNING] Gaze estimator unavailable: {ge}",
-        file=sys.stderr
-    )
-    GazeEstimator = None
 
 from analytics_utils import (
     aggregate_visits,
@@ -221,10 +208,6 @@ def draw_annotated_diagnostic_frame(
     active_associations = []
     for bdata in boxes_data:
         cust_label = bdata.get("id", "Customer")
-        gaze_direction = bdata.get(
-                                "gaze",
-                                "UNKNOWN"
-                            )
         conf_str = bdata.get("confidence", "0%")
         x, y, bw, bh = bdata.get("bbox", [0, 0, 0, 0])
         foot_x = x + bw // 2
@@ -242,24 +225,6 @@ def draw_annotated_diagnostic_frame(
             cv2.FONT_HERSHEY_SIMPLEX,
             0.6,
             (0, 255, 120),
-            2
-        )
-        gaze_arrow = {
-            "UP": "↑",
-            "DOWN": "↓",
-            "LEFT": "←",
-            "RIGHT": "→",
-            "FORWARD": "•",
-            "UNKNOWN": "?"
-        }.get(gaze_direction, "?")
-
-        cv2.putText(
-            annotated,
-            f"Gaze: {gaze_direction} {gaze_arrow}",
-            (x, min(h - 10, y + bh + 22)),
-            cv2.FONT_HERSHEY_SIMPLEX,
-            0.55,
-            (255, 255, 0),
             2
         )
 
@@ -354,27 +319,6 @@ def process_video(input_path, json_path, pdf_path, store_capacity=50, conf_thres
                     fps = 30.0
                 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)) or 1920
                 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)) or 1080
-                processed_video_path = (
-                    output_dir / f"customer_gaze_{job_id}.mp4"
-                )
-
-                video_writer = None
-
-                if cv2 is not None and video_opened:
-
-                    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
-
-                    video_writer = cv2.VideoWriter(
-                        str(processed_video_path),
-                        fourcc,
-                        fps,
-                        (width, height)
-                    )
-
-                    print(
-                        f"[CAMS] Processed video: "
-                        f"{processed_video_path}"
-                    )
                 cap.release()
         except Exception as cap_err:
             print(f"[CAMS DIAGNOSTIC ERROR] Video open failure: {cap_err}", file=sys.stderr)
@@ -453,36 +397,7 @@ def process_video(input_path, json_path, pdf_path, store_capacity=50, conf_thres
             print("PRODUCT MODEL LOADED: True")
         except Exception as pr_err:
             print(f"[CAMS WARNING] Product model failed to load: {pr_err}", file=sys.stderr)
-    # ----------------------------------------------------
-    # GAZE ESTIMATION
-    # ----------------------------------------------------
-    gaze_estimator = None
-    gaze_enabled = False
 
-    print(
-    "\n========== STAGE 3B: GAZE ESTIMATION =========="
-    )
-
-    if GazeEstimator is not None:
-
-        try:
-
-            gaze_estimator = GazeEstimator()
-
-            gaze_enabled = True
-
-            print("GAZE ESTIMATOR LOADED: True")
-
-        except Exception as gaze_err:
-
-            print(
-                f"[CAMS WARNING] Gaze estimator failed: {gaze_err}",
-                file=sys.stderr
-            )
-
-    else:
-
-        print("GAZE ESTIMATOR LOADED: False")
     # ----------------------------------------------------
     # PHASE 8: LOAD & VALIDATE SHELF ZONES
     # ----------------------------------------------------
@@ -520,18 +435,6 @@ def process_video(input_path, json_path, pdf_path, store_capacity=50, conf_thres
     # PHASE 4 & 5: PERSON TRACKING & ANALYSIS STREAM
     # ----------------------------------------------------
     person_frames: Dict[int, List[Tuple[int, Tuple[float, float]]]] = {} # track_id -> list of (frame_idx, (foot_x, foot_y))
-    gaze_events: List[Dict[str, Any]] = []
-
-    gaze_counts = {
-        "UP": 0,
-        "DOWN": 0,
-        "LEFT": 0,
-        "RIGHT": 0,
-        "FORWARD": 0,
-        "UNKNOWN": 0
-    }
-    total_gaze_observations = 0
-    successful_gaze_observations = 0
     product_detections: List[Dict[str, Any]] = []
     unique_track_ids = set()
     raw_detection_count = 0
@@ -588,273 +491,31 @@ def process_video(input_path, json_path, pdf_path, store_capacity=50, conf_thres
                         w = x2 - x1
                         h = y2 - y1
 
-                       
                         if i < len(ids):
-
                             t_id = ids[i]
-
-                            # Default gaze result.
-                            # If a face cannot be detected, we keep UNKNOWN.
-                            gaze_result = {
-                                "direction": "UNKNOWN",
-                                "confidence": 0.0,
-                                "yaw": None,
-                                "pitch": None
-                            }
-
                             unique_track_ids.add(t_id)
                             frame_track_ids.append(t_id)
 
                             if t_id not in person_frames:
                                 person_frames[t_id] = []
+                            person_frames[t_id].append((frame_idx, (foot_x, foot_y)))
 
-                            person_frames[t_id].append(
-                                (frame_idx, (foot_x, foot_y))
-                            )
-
-                            # ------------------------------------------------
-                            # LINE CROSSING CHECK
-                            # ------------------------------------------------
-
+                            # Line crossing check
                             if t_id in track_prev_y:
-
                                 prev_y = track_prev_y[t_id]
-
-                                if (
-                                    prev_y < line_y
-                                    and cy >= line_y
-                                    and t_id not in entered_ids
-                                ):
+                                if prev_y < line_y and cy >= line_y and t_id not in entered_ids:
                                     entered_ids.add(t_id)
-
-                                elif (
-                                    prev_y > line_y
-                                    and cy <= line_y
-                                    and t_id not in exited_ids
-                                ):
+                                elif prev_y > line_y and cy <= line_y and t_id not in exited_ids:
                                     exited_ids.add(t_id)
-
                             track_prev_y[t_id] = cy
 
-                            # ------------------------------------------------
-                            # GAZE ESTIMATION
-                            # ------------------------------------------------
-
-                            if gaze_enabled and gaze_estimator is not None:
-
-                                try:
-
-                                    frame = result.orig_img
-
-                                    frame_height, frame_width = frame.shape[:2]
-
-                                    # Keep coordinates inside the image
-                                    crop_x1 = max(0, int(x1))
-                                    crop_y1 = max(0, int(y1))
-                                    crop_x2 = min(frame_width, int(x2))
-                                    crop_y2 = min(frame_height, int(y2))
-
-                                    if crop_x2 > crop_x1 and crop_y2 > crop_y1:
-
-                                        person_crop = frame[
-                                            crop_y1:crop_y2,
-                                            crop_x1:crop_x2
-                                        ]
-
-                                        if person_crop.size > 0:
-
-                                            person_height = person_crop.shape[0]
-
-                                            # Face is normally located in
-                                            # the upper part of the person.
-                                            face_height = max(
-                                                1,
-                                                int(person_height * 0.55)
-                                            )
-
-                                            face_crop = person_crop[
-                                                0:face_height,
-                                                :
-                                            ]
-
-                                            if face_crop.size > 0:
-
-                                                face_crop = cv2.resize(
-                                                    face_crop,
-                                                    None,
-                                                    fx=2.5,
-                                                    fy=2.5,
-                                                    interpolation=cv2.INTER_CUBIC
-                                                )
-
-                                                gaze_result = gaze_estimator.estimate(
-                                                    face_crop
-                                                )
-
-                                except Exception as gaze_error:
-
-                                    print(
-                                        f"[CAMS GAZE WARNING] "
-                                        f"Customer #{t_id}: {gaze_error}",
-                                        file=sys.stderr
-                                    )
-
-                            # ------------------------------------------------
-                            # STORE GAZE DATA
-                            # ------------------------------------------------
-                            total_gaze_observations += 1
-                            gaze_direction = gaze_result.get(
-                                "direction",
-                                "UNKNOWN"
-                            )
-                            if gaze_direction != "UNKNOWN":
-                                successful_gaze_observations += 1
-
-                            gaze_confidence = gaze_result.get(
-                                "confidence",
-                                0.0
-                            )
-
-                            # Add customer + gaze information
                             frame_boxes_data.append({
-
                                 "id": f"Customer #{t_id}",
-
                                 "label": "Person",
-
-                                "confidence": (
-                                    f"{round(c * 100, 1)}%"
-                                ),
-
-                                "bbox": [
-                                    round(x1),
-                                    round(y1),
-                                    round(w),
-                                    round(h)
-                                ],
-
-                                "gaze": gaze_direction,
-
-                                "gazeConfidence": gaze_confidence,
-
-                                "yaw": gaze_result.get("yaw"),
-
-                                "pitch": gaze_result.get("pitch")
+                                "confidence": f"{round(c * 100, 1)}%",
+                                "bbox": [round(x1), round(y1), round(w), round(h)]
                             })
 
-                            frame_boxes_data.append({
-                                            "id": f"Customer #{t_id}",
-                                            "label": "Person",
-                                            "confidence": f"{round(c * 100, 1)}%",
-                                            "bbox": [
-                                                round(x1),
-                                                round(y1),
-                                                round(w),
-                                                round(h)
-                                            ],
-                                            "gaze": gaze_result.get(
-                                                "direction",
-                                                "UNKNOWN"
-                                            ),
-                                            "gazeConfidence": gaze_result.get(
-                                                "confidence",
-                                                0.0
-                                            ),
-                                            "yaw": gaze_result.get("yaw"),
-                                            "pitch": gaze_result.get("pitch")
-                                        })
-                                                                    # ----------------------------------------------------
-                            # GAZE ESTIMATION FOR THIS TRACKED CUSTOMER
-                            # ----------------------------------------------------
-
-                            gaze_result = {
-                                    "direction": "UNKNOWN",
-                                    "confidence": 0.0,
-                                    "yaw": None,
-                                    "pitch": None
-                                }
-
-                            if gaze_enabled and gaze_estimator is not None:
-
-                                try:
-
-                                    frame = result.orig_img
-
-                                    frame_h, frame_w = frame.shape[:2]
-
-                                    # Clamp person bounding box
-                                    crop_x1 = max(0, int(x1))
-                                    crop_y1 = max(0, int(y1))
-                                    crop_x2 = min(frame_w, int(x2))
-                                    crop_y2 = min(frame_h, int(y2))
-
-                                    if crop_x2 > crop_x1 and crop_y2 > crop_y1:
-
-                                            person_crop = frame[
-                                                crop_y1:crop_y2,
-                                                crop_x1:crop_x2
-                                            ]
-
-                                            if person_crop.size > 0:
-
-                                                person_h = person_crop.shape[0]
-
-                                                # Face is normally in upper portion
-                                                face_h = max(
-                                                    1,
-                                                    int(person_h * 0.55)
-                                                )
-
-                                                face_crop = person_crop[
-                                                    0:face_h,
-                                                    :
-                                                ]
-
-                                                if face_crop.size > 0:
-
-                                                    face_crop = cv2.resize(
-                                                        face_crop,
-                                                        None,
-                                                        fx=2.5,
-                                                        fy=2.5,
-                                                        interpolation=cv2.INTER_CUBIC
-                                                    )
-
-                                                    gaze_result = gaze_estimator.estimate(
-                                                        face_crop
-                                                    )
-                                except Exception as gaze_err:
-
-                                            print(
-                                                 f"[CAMS GAZE WARNING] "
-                                                 f"Customer #{t_id}: {gaze_err}",
-                                                 file=sys.stderr
-                                             )
- 
-                                gaze_direction = gaze_result.get(
-                                         "direction",
-                                         "UNKNOWN"
-                                     )
- 
-                                gaze_confidence = gaze_result.get(
-                                         "confidence",
-                                         0.0
-                                     )
- 
-                                gaze_counts[gaze_direction] = (
-                                         gaze_counts.get(gaze_direction, 0) + 1
-                                     )
-                                gaze_events.append({
-                                         "frame": frame_idx,
-                                         "timeSec": round(frame_idx / fps, 2),
-                                         "customerId": int(t_id),
-                                         "direction": gaze_direction,
-                                         "confidence": gaze_confidence,
-                                         "yaw": gaze_result.get("yaw"),
-                                         "pitch": gaze_result.get("pitch")
-                                 })
-
-                                    
                 current_count = len(frame_track_ids)
                 frame_occupancies.append(current_count)
 
@@ -1088,34 +749,6 @@ def process_video(input_path, json_path, pdf_path, store_capacity=50, conf_thres
         round(safe_mean(product_confidences) * 100.0, 1)
         if product_confidences
         else 0.0
-    )
-    print()
-    print("========== GAZE ANALYSIS METRICS ==========")
-    print(
-        f"Total Gaze Observations: "
-        f"{total_gaze_observations}"
-    )
-    print(
-        f"Successful Gaze Observations: "
-        f"{successful_gaze_observations}"
-    )
-    print(
-        f"UP: {gaze_counts.get('UP', 0)}"
-    )
-    print(
-        f"DOWN: {gaze_counts.get('DOWN', 0)}"
-    )
-    print(
-        f"LEFT: {gaze_counts.get('LEFT', 0)}"
-    )
-    print(
-        f"RIGHT: {gaze_counts.get('RIGHT', 0)}"
-    )
-    print(
-        f"FORWARD: {gaze_counts.get('FORWARD', 0)}"
-    )
-    print(
-        f"UNKNOWN: {gaze_counts.get('UNKNOWN', 0)}"
     )
 
     print("\n========== PRODUCT DETECTION METRICS ==========")
